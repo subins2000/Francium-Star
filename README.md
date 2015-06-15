@@ -1,4 +1,4 @@
-# \Fr\Star
+# Francium Star
 
 A 5 Star Rating System Created With PHP & JavaScript
 

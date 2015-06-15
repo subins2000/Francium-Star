@@ -39,5 +39,6 @@ if(!isset($_SESSION['user_id'])){
     echo "<p>115x20" . $star->getRating("size-3") . "</p>";
     echo "<p>55x10" . $star->getRating("size-4") . "</p>";
     ?>
+    <!-- NOTICE - http://subinsb.com/francium-star -->
   </body>
 </html>

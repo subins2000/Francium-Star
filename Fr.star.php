@@ -5,14 +5,14 @@ namespace Fr;
 .---------------------------------------------------------------------------.
 | The Francium Project                                                      |
 | ------------------------------------------------------------------------- |
-| This software `software` is a part of the Francium (Fr) project.          |
+| This software 'Francium Star' is a part of the Francium (Fr) project.     |
 | http://subinsb.com/the-francium-project                                   |
 | ------------------------------------------------------------------------- |
 |     Author: Subin Siby                                                    |
 | Copyright (c) 2014 - 2015, Subin Siby. All Rights Reserved.               |
 | ------------------------------------------------------------------------- |
-|   License: Distributed under the General Public License (GPL)             |
-|            http://www.gnu.org/licenses/gpl-3.0.html                       |
+|   License: Distributed under the Apache License, Version 2.0              |
+|            http://www.apache.org/licenses/LICENSE-2.0                     |
 | This program is distributed in the hope that it will be useful - WITHOUT  |
 | ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or     |
 | FITNESS FOR A PARTICULAR PURPOSE.                                         |
@@ -20,13 +20,13 @@ namespace Fr;
 */
 
 /**
-.---------------------------------------------------------------------------.
-|  Software: The Name of Software                                           |
-|   Version: main.sub  (YYYY mm DD)                                         |
-|   Contact: http://github.com/subins2000/Project-Name                      |
-|   Documentation: https://subinsb.com/Project-Name                         |
-|   Support: http://subinsb.com/ask/Project-Name                            |
-'---------------------------------------------------------------------------'
+.--------------------------------------------------------------------------.
+|  Software: Francium Star                                                 |
+|  Version: 0.1  (2015-06-15)                                              |
+|  Contact: http://github.com/subins2000/Francium-Star                     |
+|  Documentation: https://subinsb.com/Francium-Star                        |
+|  Support: https://github.com/subins2000/Francium-Star/issues             |
+'--------------------------------------------------------------------------'
 */
 
 ini_set("display_errors", "on");

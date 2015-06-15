@@ -1,5 +1,13 @@
+/**
+.-------------------------------------.
+|  Software: Francium Star            |
+|  Version: 0.1  (2015-06-15)         |
+|  http://subinsb.com/Francium-Star   |
+'-------------------------------------'
+*/
+
 function log(m){
-    console.log(m);
+  console.log(m);
 }
 
 (function(window){

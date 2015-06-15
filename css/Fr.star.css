@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.Fr-star {
+  width: 225px;
+  height: 40px;
+  position: relative;
+  background-color: #ccc;
+}
+.Fr-star[data-title]:hover:after {
+  content: attr(data-title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 20;
+  white-space: nowrap;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+.Fr-star .Fr-star-bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../img/Fr-star.svg) repeat;
+  background-size: contain;
+}
+.Fr-star .Fr-star-value{
+  height: 100%;
+  position: absolute;
+  background-color: #ffbe10;
+}
+.Fr-star.size-2{
+  width: 170px;
+  height: 30px;
+}
+.Fr-star.size-3{
+  width: 115px;
+  height: 20px;
+}
+.Fr-star.size-4{
+  width: 55px;
+  height: 10px;
+}

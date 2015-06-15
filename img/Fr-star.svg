@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="45"
+   height="40"
+   viewBox="0 0 60 48"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Fr-star.svg"
+   inkscape:export-filename="/home/simsu/Other/projects/Web/Francium/star/img/Fr-star.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Five Pointed Star</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1368"
+     inkscape:window-height="694"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="11.8"
+     inkscape:cx="21.450717"
+     inkscape:cy="19.873256"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Five Pointed Star</title>
+  <path
+     style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:none"
+     d="m 12.2252,34.553785 c 0.0018,-0.06223 0.702476,-2.630099 1.557028,-5.70637 1.304295,-4.695288 1.53588,-5.613628 1.442543,-5.720339 -0.06115,-0.06992 -2.052609,-1.747882 -4.425457,-3.728814 l -4.3142695,-3.601695 5.7007835,-0.02178 5.700783,-0.02178 1.891748,-5.677376 c 1.040462,-3.1225568 1.913115,-5.677376 1.93923,-5.677376 0.02612,0 0.886267,2.5455509 1.911449,5.65678 l 1.863968,5.656779 5.716143,0.04237 5.716144,0.04237 -4.40678,3.678097 c -2.423729,2.022953 -4.417366,3.686082 -4.430305,3.695841 -0.01294,0.0098 0.685862,2.581663 1.552891,5.715341 0.867029,3.133677 1.564056,5.70963 1.548949,5.72434 -0.01511,0.01471 -2.143992,-1.475171 -4.730857,-3.310844 -2.586864,-1.835674 -4.743671,-3.323491 -4.792903,-3.30626 -0.07495,0.02623 -7.782242,5.465616 -9.041843,6.381239 -0.241513,0.175559 -0.401223,0.24735 -0.399245,0.179464 z"
+     id="path3880"
+     inkscape:connector-curvature="0"
+     transform="matrix(1.3333333,0,0,1.3333333,0,-2.6666667)" />
+  <path
+     style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="M 0 0 L 0 40 L 45 40 L 45 0 L 0 0 z M 22.71875 1.28125 L 28.0625 15.4375 L 44.125 15.4375 L 31.625 24.5625 L 36.09375 38.71875 L 22.71875 30.40625 L 9.34375 38.71875 L 13.78125 24.5625 L 1.3125 15.4375 L 17.34375 15.4375 L 22.71875 1.28125 z "
+     transform="matrix(1.3333333,0,0,1.3333333,0,-2.6666667)"
+     id="rect3900" />
+  <path
+     d="m 30.276833,-0.95150867 7.1347,18.85225167 H 58.815642 L 42.168004,30.099257 48.113588,48.951509 30.276833,37.861951 12.440082,48.951509 18.385668,30.099257 1.73803,17.900743 h 21.404104 z"
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:0.33481708;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>

@@ -22,7 +22,7 @@ namespace Fr;
 /**
 .--------------------------------------------------------------------------.
 |  Software: Francium Star                                                 |
-|  Version: 0.1  (2015-06-15)                                              |
+|  Version: 0.1  (2015-06-16)                                              |
 |  Contact: http://github.com/subins2000/Francium-Star                     |
 |  Documentation: https://subinsb.com/Francium-Star                        |
 |  Support: https://github.com/subins2000/Francium-Star/issues             |
@@ -110,15 +110,17 @@ class Star {
    * Set a rate
    */
   public function addRating($user_id, $rating){
-    $sql = $this->dbh->prepare("SELECT COUNT(1) FROM `{$this->config['db']['table']}` where `user_id` = ?");
-    $sql->execute(array($user_id));
+    if($rating <= 5.0){
+      $sql = $this->dbh->prepare("SELECT COUNT(1) FROM `{$this->config['db']['table']}` where `user_id` = ?");
+      $sql->execute(array($user_id));
     	
-    if($sql->fetchColumn() == "0"){
-      $sql = $this->dbh->prepare("INSERT INTO `{$this->config['db']['table']}` (`rate_id`, `user_id`, `rate`) VALUES(?, ?, ?)");
-      return $sql->execute(array($this->id, $user_id, $rating));
-    }else{
-      $sql = $this->dbh->prepare("UPDATE `{$this->config['db']['table']}` SET `rate` = ? WHERE `user_id` = ?");
-      return $sql->execute(array($rating, $user_id));
+      if($sql->fetchColumn() == "0"){
+        $sql = $this->dbh->prepare("INSERT INTO `{$this->config['db']['table']}` (`rate_id`, `user_id`, `rate`) VALUES(?, ?, ?)");
+        return $sql->execute(array($this->id, $user_id, $rating));
+      }else{
+        $sql = $this->dbh->prepare("UPDATE `{$this->config['db']['table']}` SET `rate` = ? WHERE `user_id` = ?");
+        return $sql->execute(array($rating, $user_id));
+      }
     }
   }
   

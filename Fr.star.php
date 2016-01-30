@@ -111,15 +111,15 @@ class Star {
    */
   public function addRating($user_id, $rating){
     if($rating <= 5.0){
-      $sql = $this->dbh->prepare("SELECT COUNT(1) FROM `{$this->config['db']['table']}` where `user_id` = ?");
-      $sql->execute(array($user_id));
-    	
+      $sql = $this->dbh->prepare("SELECT COUNT(1) FROM `{$this->config['db']['table']}` WHERE `user_id` = ? AND `rate_id` = ?");
+      $sql->execute(array($user_id, $this->id));
+        
       if($sql->fetchColumn() == "0"){
         $sql = $this->dbh->prepare("INSERT INTO `{$this->config['db']['table']}` (`rate_id`, `user_id`, `rate`) VALUES(?, ?, ?)");
         return $sql->execute(array($this->id, $user_id, $rating));
       }else{
-        $sql = $this->dbh->prepare("UPDATE `{$this->config['db']['table']}` SET `rate` = ? WHERE `user_id` = ?");
-        return $sql->execute(array($rating, $user_id));
+        $sql = $this->dbh->prepare("UPDATE `{$this->config['db']['table']}` SET `rate` = ? WHERE `user_id` = ? AND `rate_id` = ?");
+        return $sql->execute(array($rating, $user_id, $this->id));
       }
     }
   }
